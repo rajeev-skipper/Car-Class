@@ -11,5 +11,17 @@ int make_year:
 string Model;
 
 public :
-Car(int make_)
+Car(int year, string model);
+ 
+void brake();
+ 
+void accelerate();
+ 
+void setspeed();
+ 
+int getspeed(); 
+ 
+void setMake(string model);
+
+string getmake();
 
