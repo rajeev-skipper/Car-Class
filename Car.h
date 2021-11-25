@@ -17,11 +17,17 @@ void brake();
  
 void accelerate();
  
-void setspeed();
+void setspeed(int s);
  
 int getspeed(); 
  
-void setMake(string model);
+void setmakeyear(string y);
 
-string getmake();
+string getmakeyear();
+
+void setmodel(string m);
+ 
+string getmodel();
+ 
+}
 
